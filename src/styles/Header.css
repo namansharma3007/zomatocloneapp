@@ -1,0 +1,82 @@
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #ce0505;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.s-logo{
+    padding-left: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.s-logo:hover{
+    transform: scale(1.1);
+}
+
+.s-logo span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #ce0505;
+    background: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-weight: bold;
+    
+}
+
+.login-block {
+    position: absolute;
+    right: 2px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.signUp {
+    font-weight: bold;
+    border: solid 1px white;
+    padding: 4px;
+}
+.login:hover,
+.signUp:hover{
+    cursor: pointer;
+    color: black;
+}
+.signUp:hover{
+    border: solid 2px black;
+}
+
+#exit-post-login{
+    color: white;
+    font-size: 20px;
+}
+#exit-post-login:hover{
+    cursor: pointer;
+    color: black;
+}
+.afterLoggedIn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.afterLoggedIn span{
+    margin-right: 10px;
+}
+.afterLoggedIn i{
+    margin-left: 10px;
+}
